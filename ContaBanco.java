@@ -8,11 +8,12 @@ public class ContaBanco {
         System.out.println("BEM-VIND AO TERMINAL TAC");
         System.out.println("-------------------------");
         System.out.print("Digite o seu nome: ");
-        String nomeCliente = scanner.next();
+        String nomeCliente = scanner.nextLine();
         System.out.print("Digite o número de sua agência: ");
         String agencia = scanner.next();
         System.out.print("Digite o número da sua conta: ");
         int  numeroConta = scanner.nextInt();
+        System.out.println("-------------------------");
 
         Conta conta = new Conta();
         conta.setNomeCliente(nomeCliente);
